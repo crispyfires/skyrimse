@@ -24714,6 +24714,7 @@ plugins:
     url:
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/74785/'
         name: 'Ryn''s Saarthal'
+    after: ['Nordic Ruins of Skyrim.esp']
     tag:
       - Actors.ACBS
       - Actors.Perks.Add
@@ -29751,3 +29752,8 @@ plugins:
       - C.Owner
       - Keywords
       - Names
+ - name: 'Northern Roads.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77530'
+        name: 'Northern Roads'
+   group: 'Worldspace Settings
