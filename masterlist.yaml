@@ -458,6 +458,12 @@ common:
     subs:
       - 'Vokrii - Minimalistic Perks of Skyrim'
       - '[Umgak''s Vokrii Compatibility Patch Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/26278/)'
+  - &patch3rdParty_NR
+    <<: *patch3rdParty
+    subs:
+      - 'Northern Roads'
+      - '[Northern Roads Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/77386/)'
+      - '[Northern Roads - Patches Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/77893)'
 
   # &requiresMCM_X
   - &requiresMCM
@@ -29756,6 +29762,9 @@ plugins:
    url: 
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77530'
         name: 'Northern Roads'
+   msg:
+      - <<: *patch3rdParty_NR
+        condition: 'active(" Realm of Lorkhan - Custom Alternate Start - Choose your own adventure.esp") and not active("Northern Roads - Realm of Lorkhan patch.esp")'
    group: 'Worldspace Settings'
  - name: 'Northern Roads - Ultimate Grass Fix.esp'
    url: 
