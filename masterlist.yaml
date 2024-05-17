@@ -29756,4 +29756,39 @@ plugins:
    url: 
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77530'
         name: 'Northern Roads'
-   group: 'Worldspace Settings
+   group: 'Worldspace Settings'
+ - name: 'Northern Roads - Ultimate Grass Fix.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads.esp']
+ - name: 'Northern Roads - Aspen Ablaze Patch.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads - Ultimate Grass Fix.esp']
+ - name: 'Northern Roads - Landscape and Water Fixes (LaWF) Patch.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads - Aspen Ablaze Patch.esp']
+ - name: 'Northern Roads - Landscape Fixes for Grass Mods (LFFGM) Patch.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads - Landscape and Water Fixes (LaWF) Patch.esp']
+ - name: 'Northern Roads - Water for ENB Patch.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads - Landscape Fixes for Grass Mods (LFFGM) Patch.esp']
+ - name: 'Northern Roads - Water for ENB Patch.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads - Landscape Fixes for Grass Mods (LFFGM) Patch.esp']
+ - name: 'Northern Roads - Ryn's Snow-Shod Shadow Stone.esp'
+   url: 
+      - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/77893'
+        name: 'Northern Roads - Patches Compendium'
+   after: ['Northern Roads - Water for ENB Patch.esp']
